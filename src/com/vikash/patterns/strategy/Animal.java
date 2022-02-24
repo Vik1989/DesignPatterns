@@ -28,5 +28,8 @@ public class Animal {
         animal.setWalkingStrategy(new MoveByFlying());
 
         animal.move();
+
+        Dog dog = new Dog(new MoveByWalking());
+        dog.move();
     }
 }
